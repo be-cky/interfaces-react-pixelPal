@@ -1,0 +1,83 @@
+.fondo-actual {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.button-cambiar {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.titulo-decoracion {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.textos-decoracion {
+    text-align: center;
+}
+
+.slider {
+    padding: 1rem;
+}
+
+.modal-overlay-owo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal-container-owo {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: pink;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    overflow-y: auto;
+}
+
+.cerrar-owo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.small-carousel .carousel-inner {
+    max-height: 300px;
+}
+
+.small-carousel img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.btn-select-image {
+    margin-top: 20px;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}

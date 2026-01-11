@@ -1,0 +1,231 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.game-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Ajustar la altura para ocupar toda la pantalla */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalJuego {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: linear-gradient(to bottom, #f083b9, #f5c9e0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  max-width: 90%;
+  width: 600px;
+}
+
+
+.controls-img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.button {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;  
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.row-1 h1{
+  font-family: "Brush Script MT", cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #a30041;   
+}
+
+.pet {   
+  position: absolute;   
+  bottom: 10%;   
+  top: 80%;   
+  width: 100px;   
+  height: 100px;   
+  background-size: contain;   
+  background-repeat: no-repeat; }
+
+.coin, .bomb {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.score, .timer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 32px;
+  font-family: "Brush Script MT", cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #a30041;
+}
+
+.timer {
+  top: 50px;
+}
+
+.hearts-container {
+  position: absolute;
+  top: 10px; /* Ajusta este valor según la distancia deseada desde la parte superior */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-salir {
+  position: absolute;
+  bottom: 10px; /* Ajusta este valor según la distancia deseada desde la parte superior */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.game-over {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: linear-gradient(to bottom, #f083b9, #f5c9e0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    max-width: 90%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+    
+  }
+
+  .conseguido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+    text-align: center;
+  }
+  
+  .game-over h1 {
+    margin-bottom: 20px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 8vw; /* Tamanho relativo a la anchura del viewport */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #a30041;
+  }
+
+
+  .game-over p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .game-over button {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+@media (max-width: 768px) {
+  .modall {
+      width: 90%;
+  }
+
+  .row-1 h1 {
+      font-size: 1.5rem;
+  }
+
+  .col-md-8, .col-md-4 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .col-md-8 {
+      margin-bottom: 20px;
+  }
+
+  .button {
+      font-size: 1rem;
+      padding: 8px;
+  }
+  
+  .game-container {
+    height: 100%;
+  }
+
+    .pet {
+      width: 80px;
+      height: 80px;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+  .hearts-container img {
+    width: 60px; /* Tamaño reducido para pantallas más pequeñas */
+  }
+
+  .coin, .bomb {
+    width: 40px;
+    height: 40px;
+  }
+  .score, .timer {
+    font-size: 16px;
+  }
+  .button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .row-1 h1 {
+      font-size: 1.2rem;
+  }
+}
+  

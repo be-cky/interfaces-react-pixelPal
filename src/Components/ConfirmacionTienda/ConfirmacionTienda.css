@@ -1,0 +1,71 @@
+.Toastify__toast-container {
+    z-index: 9999; /* Asegúrate de que el contenedor de notificaciones esté en el frente */
+}
+
+.Toastify__toast {
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.Toastify__toast--success {
+    background: #4caf50; /* Color de fondo para notificaciones de éxito */
+    color: white;
+}
+
+.Toastify__toast--error {
+    background: #f44336; /* Color de fondo para notificaciones de error */
+    color: white;
+}
+
+.row-1{
+    background-color: whitesmoke; /* Cambia el color según sea necesario */
+    border-radius: 20px; /* Redondea los bordes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+    padding: 10px; /* Añade un poco de padding para que se vea mejor */
+}
+
+.col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-p {
+    max-width: 20%;
+    height: 20%;
+    margin-bottom: 5px;
+}
+
+.icon {
+    max-width: 30%;
+    height: 30%;
+    margin-bottom: 5px;
+}
+
+.scrollable {
+    max-height: 400px; /* Ajusta la altura máxima según tus necesidades */
+    overflow-y: auto;
+    padding: 10px; /* Opcional: para añadir espacio alrededor del contenido */
+    
+}
+
+.button-aceptar {
+    background-color: #77dd77;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;   
+}
+
+.button-cancelar {
+    background-color: #FF9999;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;   
+}
+
+
+

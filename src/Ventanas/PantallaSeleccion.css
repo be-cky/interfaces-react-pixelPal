@@ -1,0 +1,54 @@
+.carousel-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .card-custom {
+    padding: 2rem;
+  }
+
+  .slider {
+    padding: 1rem;
+  }
+
+  .confirm {
+    flex-direction: column;
+  }
+
+  .confirm button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .confirm {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Estilos personalizados para los botones de navegación del carrusel específico */
+.custom-carousel .slick-arrow.slick-prev,
+.custom-carousel .slick-arrow.slick-next {
+  width: 50px; /* Ancho de la flecha */
+  height: 50px; /* Altura de la flecha */
+  z-index: 1; /* Asegúrate de que los botones estén en la capa superior */
+  background-size: cover; /* Ajusta la imagen para cubrir completamente el área */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+}
+
+.custom-carousel .slick-arrow.slick-prev::before,
+.custom-carousel .slick-arrow.slick-next::before {
+  font-size: 60px; /* Ajusta este valor al tamaño deseado del ícono */
+}
+
+/* Opcional: Ajustar la posición de los botones si es necesario */
+.custom-carousel .slick-arrow.slick-prev {
+  left: -60px; /* Ajusta este valor según sea necesario */
+}
+
+.custom-carousel .slick-arrow.slick-next {
+  right: -60px; /* Ajusta este valor según sea necesario */
+}

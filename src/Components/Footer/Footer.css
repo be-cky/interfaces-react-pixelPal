@@ -1,0 +1,22 @@
+/* Footer.css */
+.footer {
+  padding: 20px;
+  margin-top: 200px;
+}
+
+.botonDegradadoNombreA {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to bottom, #f083b9, #f5c9e0);
+  color: white;
+  border-color: white;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.botonDegradadoNombreA:hover {
+  background: linear-gradient(to bottom, #f083b9, #f5c9e0);
+  border-radius: 20px;
+}

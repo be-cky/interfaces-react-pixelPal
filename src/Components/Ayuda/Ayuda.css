@@ -1,0 +1,49 @@
+
+.modalbodyrosa {
+  background: linear-gradient(to bottom, #f083b9, #f5c9e0);
+  display: inline;
+}
+
+  .foto{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .barra{
+    width: 70%;
+  }
+
+  .volver{
+    background: transparent;
+    border: 0;
+  }
+
+  .texto {
+    flex-grow: 1; /* El texto ocupará todo el espacio disponible */
+    text-align: center; /* Centra el texto horizontalmente */
+    align-items: center;
+  }
+
+  .tablaayuda {
+    border-collapse: collapse;
+  }
+
+  .tablaayuda th, .tablaayuda td {
+    border: 2px solid white; 
+    padding: 2px;
+    
+  }
+  
+  .columnaizquierda {
+    width: 20%; 
+    padding: 20px;
+    text-align: center;
+
+  }
+
+  .columnaderecha {
+    text-align: center;
+    width: 80%; 
+    padding: 20px;
+  }
+

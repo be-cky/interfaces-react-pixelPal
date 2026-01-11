@@ -1,0 +1,116 @@
+.heart-container {
+    position: absolute;
+    top: 12%; 
+    left: 42.3%;
+}
+
+.speech-balloon-container {
+    position: absolute;
+    top: 15%; 
+    left: 53.3%;
+}
+
+.bathtub-container {
+    position: absolute;
+    top: 37%; 
+    left: 33.7%;
+}
+
+.bathtub-icon {
+    position: relative;
+    margin-left: 135px;
+    top: -30px;
+    scale: 1.5;
+    z-index: 1;
+}
+
+.love-text-info {  
+    text-align: center;
+}
+
+.cleaning-info {
+    position: relative;
+    top: -100px;
+}
+
+.heart-icon {
+    position: relative;
+    margin-left: 57px;
+    top: -10px;
+    height: 180px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.speech-balloon-icon {
+    height: 320px;
+    width: 320px;
+}
+
+
+.cursor-sponge {  
+    /* 50 50 es para centrar el cursor con la imagen de la esponja (la imagen es 100px X 100px) */
+    cursor: url('../images/cursor-sponge.png') 50 50, auto;
+}
+
+.music-control-button{
+
+
+  background: linear-gradient(to bottom, #f083b9, #f5c9e0);
+  color: white;
+  border-color: white;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.musicaepica{
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 500px) {
+    .music-control-button{
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .musicaepica{
+        width: 20px;
+        height: 20px;
+    }
+    
+
+
+}
+
+
+/**/
+.food-container{
+    position: absolute;
+    top: 56%; /* Ajusta la posición para que el corazón aparezca donde lo desees */
+    left: 27%;
+    
+}
+
+.food-icon{
+    height: 100px;
+    width: 100px;
+}
+
+.food-message{
+    position: absolute;
+    top: 46%; /* Ajusta la posición para que el corazón aparezca donde lo desees */
+    left: 21%;
+}
+
+.food-message h1{
+    color: #ff1493; /* Set the color of the text */
+    -webkit-text-stroke-width: 1px; /* Set the width of the text stroke */
+    -webkit-text-stroke-color: white; 
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+

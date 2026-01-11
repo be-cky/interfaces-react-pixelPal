@@ -1,0 +1,70 @@
+.container-flechita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-button {
+  font-size: 1.5rem;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 0 3px;
+  background: transparent;
+}
+
+.arrow-button:disabled {
+  background-color: #cccccc;
+}
+
+input[type="number"] {
+  width: 40px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0 3px;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+}
+
+.numeroTienda {
+  font-size: 1rem; /* Tamaño de fuente base */
+  box-sizing: border-box; /* Incluye el padding y borde en el ancho total */
+  text-align: center; /* Centra el texto dentro del input */
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+  .numeroTienda {
+    width: 30px; /* Ajuste de ancho para pantallas pequeñas */
+    font-size: 0.8rem; /* Ajuste de tamaño de fuente */
+  }
+
+  .arrow {
+    width: 20px;
+    height: 20px;
+  }
+
+  .arrow-button {
+    padding: 3px;
+  }
+}
+
+@media (max-width: 576px) {
+  .numeroTienda {
+    width: 25px; /* Ajuste de ancho para pantallas muy pequeñas */
+    font-size: 0.6rem; /* Ajuste de tamaño de fuente */
+  }
+
+  .arrow {
+    width: 15px;
+    height: 15px;
+  }
+
+  .arrow-button {
+    padding: 2px;
+  }
+}

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      background-image: url("../images/FondoInicio.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+  }
+
+.botonDegradado {
+    background: linear-gradient(to bottom, #f083b9, #f5c9e0);
+    border: none;
+    border-color: white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.botonDegradado:hover {
+    background: linear-gradient(to bottom, #f083b9, #f5c9e0);
+    font-size: 42.5px;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.colorTextoHomepage {
+    color: pink;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    text-align: center; /* Asegúrate de que el texto esté centrado */
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

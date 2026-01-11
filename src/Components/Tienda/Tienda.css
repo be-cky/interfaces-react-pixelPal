@@ -1,0 +1,150 @@
+.modal-container-tienda {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    
+    z-index: 1001; 
+    overflow-y: auto;
+    background-color: pink;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-fluid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .pantallaTienda td{
+    background-color: none;
+  }
+
+  .row-1{
+    background-color: whitesmoke; /* Cambia el color según sea necesario */
+    border-radius: 20px; /* Redondea los bordes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+    padding: 10px; /* Añade un poco de padding para que se vea mejor */
+  }
+  
+  .row{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Ajustar según sea necesario */
+    align-items: center; /* Ajustar según sea necesario */
+    
+  }
+  
+  .col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .titulo-tienda{
+    flex-grow: 1; /* El texto ocupará todo el espacio disponible */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  
+  .titulo-tienda {
+    margin: 0;
+  }
+  
+  button {
+    margin: 0;
+    padding: 0;
+  }
+
+.scrollable {
+    overflow-y: auto;
+    padding: 0px;
+}
+
+.col-md-8{
+    border: 2px;
+    border-color: whitesmoke;
+}
+
+.img-tienda {
+  width: 100px; /* Ajusta según el tamaño que desees */
+  height: 100px; /* Ajusta según el tamaño que desees */
+  object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+  
+}
+
+.icon-p {
+  max-width: 20%;
+  height: 20%;
+  
+}
+
+.dinero-tienda, .costeTotal-tienda {
+  background-color: whitesmoke; /* Cambia el color según sea necesario */
+  text-align: center;
+  border-radius: 20px; /* Redondea los bordes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+  padding: 10px; /* Añade un poco de padding para que se vea mejor */
+  display: flex;
+  align-items: center; /* Centrar verticalmente */
+  margin-top: 10px;
+  margin-bottom: 10px;
+                                                                                                                                                                                  
+}
+
+.button-tienda {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 10px;
+  width: 40%;
+}
+
+.pantallaTienda td{
+  background: none;
+  padding: none;
+  max-width: 0%;
+}
+
+
+.numeroTienda {
+  width: 50px; /* Ancho base para el input */
+  padding: 5px; /* Padding interno para el input */
+  font-size: 1rem; /* Tamaño de fuente base */
+  border: 1px solid #ccc; /* Borde base */
+  border-radius: 4px; /* Bordes redondeados */
+  box-sizing: border-box; /* Incluye el padding y borde en el ancho total */
+  text-align: center; /* Centra el texto dentro del input */
+}
+
+
+@media (max-width: 768px){
+  .parrafo{
+    font-size:xx-small;
+  }
+
+  .img-tienda {
+    width: 40px; /* Ajusta según el tamaño que desees */
+    height: 40px; /* Ajusta según el tamaño que desees */
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+    
+  }
+  
+}
+
+.tabletienda{
+  width: 100%; /* Ocupa el 100% del ancho del contenedor padre */
+  height: 100%; /* Ocupa el 100% de la altura del contenedor padre */
+  display: flex; /* Flexbox para que el hijo pueda estirarse */
+  align-items: stretch; /* Estira el contenido para que ocupe toda la altura */
+}
