@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/interfaces-react-pixelPal/static/css/main.56a25506.css",
-    "main.js": "/interfaces-react-pixelPal/static/js/main.39192262.js",
+    "main.js": "/interfaces-react-pixelPal/static/js/main.98b8dd61.js",
     "static/media/miku.mp3": "/interfaces-react-pixelPal/static/media/miku.1823323f39a8d334469b.mp3",
     "static/media/fondobasico2.jpg": "/interfaces-react-pixelPal/static/media/fondobasico2.be048f5d9be3aa2b54ee.jpg",
     "static/media/tarta.png": "/interfaces-react-pixelPal/static/media/tarta.7abb9b7cf057b57f944c.png",
@@ -56,10 +56,10 @@
     "static/media/slick.woff": "/interfaces-react-pixelPal/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/interfaces-react-pixelPal/index.html",
     "main.56a25506.css.map": "/interfaces-react-pixelPal/static/css/main.56a25506.css.map",
-    "main.39192262.js.map": "/interfaces-react-pixelPal/static/js/main.39192262.js.map"
+    "main.98b8dd61.js.map": "/interfaces-react-pixelPal/static/js/main.98b8dd61.js.map"
   },
   "entrypoints": [
     "static/css/main.56a25506.css",
-    "static/js/main.39192262.js"
+    "static/js/main.98b8dd61.js"
   ]
 }
