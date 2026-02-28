@@ -2,7 +2,7 @@
   "name": "proyectointerfaces",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zocufyzoe.github.io/proyectoInterfaces/",
+  "homepage": "https://be-cky.github.io/interfaces-react-pixelPal",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/zocufyzoe/proyectoInterfaces.git",
+    "deploy": "gh-pages -d build -r https://github.com/be-cky/interfaces-react-pixelPal.git",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
